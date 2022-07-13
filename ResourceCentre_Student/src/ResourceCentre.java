@@ -39,7 +39,7 @@ public class ResourceCentre {
 				int itemType = Helper.readInt("Enter option to select item type > ");
 
 				if (itemType == 1) {
-					// Add a camcorder
+					// Add a Camcorder
 					Camcorder cc = inputCamcorder();
 					ResourceCentre.addCamcorder(camcorderList, cc);
 					System.out.println("Camcorder added");
