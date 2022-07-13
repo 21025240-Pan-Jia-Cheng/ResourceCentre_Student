@@ -180,7 +180,6 @@ public class ResourceCentre {
 	public static void addCamcorder(ArrayList<Camcorder> camcorderList, Camcorder cc) {
 		
 		camcorderList.add(cc);
-		
 	}
 	
 	public static Chromebook inputChromebook() {	
@@ -297,7 +296,6 @@ public class ResourceCentre {
 				chromebookList.get(i).setIsAvailable(true);
 				chromebookList.get(i).setDueDate("");
 				isReturned = true;
-				
 			}
 		}
 		return isReturned;

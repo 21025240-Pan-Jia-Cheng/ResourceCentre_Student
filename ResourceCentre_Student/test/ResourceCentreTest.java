@@ -157,13 +157,11 @@ public class ResourceCentreTest {
 		ok = ResourceCentre.doLoanCamcorder(camcorderList, "CC0013", "8-8-2020" );
 		assertFalse("Test that non-existing item is NOT ok to loan?", ok);
 
-
 	}
 	@Test
 	public void testDoLoanChromebook() {
 		//fail("Not yet implemented");
 		// write your code here
-		
 		//boundary
 		assertNotNull("Test if there is valid Chromebook arraylist to add to", chromebookList);
 		ResourceCentre.addChromebook(chromebookList, cb1);
